@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="关键词"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/keywordEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="例如：在吗"
+        android:inputType="text"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="自动回复内容"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/replyEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="例如：在的，什么事？"
+        android:inputType="textMultiLine"
+        android:minLines="2" />
+
+</LinearLayout>
